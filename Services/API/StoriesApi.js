@@ -1,0 +1,32 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {API} from './API';
+
+export async function getStoriesApi(cursor) {
+
+  try {
+    let url = 'getContent';
+
+    let data = {
+      "contentType": 'STORIES',
+      "nextCursor": cursor
+    };
+
+    let token = await AsyncStorage.getItem('token');
+
+    let option= {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json',
+      },
+    }
+
+    return API.postApi(url, data, option).then(response => {
+      // console.log('quote res', response);
+      return response;
+    });
+  } catch (error) {
+    // console.log('error', error);
+    throw Error(error);
+  }
+}
+
