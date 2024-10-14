@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871302515061",
+    "project_id": "positive-minds-7b89f",
+    "storage_bucket": "positive-minds-7b89f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871302515061:android:9f4d8891a17b3703616b3c",
+        "android_client_info": {
+          "package_name": "com.positiveminds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871302515061-taikeq4u0tvl3632o71fvan9p3kf727l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYgcuFceWrXqFhNY0PfgSKxCZhTV-kE-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871302515061-taikeq4u0tvl3632o71fvan9p3kf727l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

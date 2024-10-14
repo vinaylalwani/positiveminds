@@ -1,0 +1,9 @@
+{
+  "Simulate Target Bundle": "com.seventhrock.positiveminds",
+  "aps":{
+    "alert": {
+      "title": "Prashen ios nontification",
+      "body": "body ios"
+    }
+  }
+}
